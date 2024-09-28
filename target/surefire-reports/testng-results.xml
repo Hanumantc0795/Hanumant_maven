@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-29T01:00:06 IST" name="Suite" finished-at="2024-09-29T01:00:43 IST" duration-ms="37200">
+    <groups>
+    </groups>
+    <test started-at="2024-09-29T01:00:06 IST" name="Test" finished-at="2024-09-29T01:00:43 IST" duration-ms="37200">
+      <class name="TestClasses.SummitRegitration">
+        <test-method is-config="true" signature="applicationLaunch()[pri:0, instance:TestClasses.SummitRegitration@1aa7ecca]" started-at="2024-09-29T01:00:31 IST" name="applicationLaunch" finished-at="2024-09-29T01:00:36 IST" duration-ms="4978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationLaunch -->
+        <test-method is-config="true" signature="clickOnSummitOption()[pri:0, instance:TestClasses.SummitRegitration@1aa7ecca]" started-at="2024-09-29T01:00:36 IST" name="clickOnSummitOption" finished-at="2024-09-29T01:00:36 IST" duration-ms="841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSummitOption -->
+        <test-method signature="clickOnAgendaOption()[pri:0, instance:TestClasses.SummitRegitration@1aa7ecca]" started-at="2024-09-29T01:00:36 IST" name="clickOnAgendaOption" finished-at="2024-09-29T01:00:42 IST" duration-ms="6046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAgendaOption -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:TestClasses.SummitRegitration@1aa7ecca]" started-at="2024-09-29T01:00:42 IST" name="closingBrowser" finished-at="2024-09-29T01:00:43 IST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+      </class> <!-- TestClasses.SummitRegitration -->
+      <class name="TestClasses.NavigateToFormPage">
+        <test-method is-config="true" signature="applicationLaunch()[pri:0, instance:TestClasses.NavigateToFormPage@4a94ee4]" started-at="2024-09-29T01:00:06 IST" name="applicationLaunch" finished-at="2024-09-29T01:00:11 IST" duration-ms="5877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationLaunch -->
+        <test-method is-config="true" signature="mouseOver()[pri:0, instance:TestClasses.NavigateToFormPage@4a94ee4]" started-at="2024-09-29T01:00:11 IST" name="mouseOver" finished-at="2024-09-29T01:00:12 IST" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mouseOver -->
+        <test-method signature="scheduleBillPayDemo()[pri:0, instance:TestClasses.NavigateToFormPage@4a94ee4]" started-at="2024-09-29T01:00:12 IST" name="scheduleBillPayDemo" finished-at="2024-09-29T01:00:16 IST" duration-ms="4640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scheduleBillPayDemo -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:TestClasses.NavigateToFormPage@4a94ee4]" started-at="2024-09-29T01:00:16 IST" name="closingBrowser" finished-at="2024-09-29T01:00:17 IST" duration-ms="550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+      </class> <!-- TestClasses.NavigateToFormPage -->
+      <class name="TestClasses.FillScheduleDemoForm">
+        <test-method is-config="true" signature="applicationLaunch()[pri:0, instance:TestClasses.FillScheduleDemoForm@12468a38]" started-at="2024-09-29T01:00:17 IST" name="applicationLaunch" finished-at="2024-09-29T01:00:23 IST" duration-ms="6044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationLaunch -->
+        <test-method is-config="true" signature="mouseOver()[pri:0, instance:TestClasses.FillScheduleDemoForm@12468a38]" started-at="2024-09-29T01:00:23 IST" name="mouseOver" finished-at="2024-09-29T01:00:24 IST" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mouseOver -->
+        <test-method signature="fillBillPayForm()[pri:0, instance:TestClasses.FillScheduleDemoForm@12468a38]" started-at="2024-09-29T01:00:24 IST" name="fillBillPayForm" finished-at="2024-09-29T01:00:30 IST" duration-ms="6493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillBillPayForm -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:TestClasses.FillScheduleDemoForm@12468a38]" started-at="2024-09-29T01:00:30 IST" name="closingBrowser" finished-at="2024-09-29T01:00:31 IST" duration-ms="539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+      </class> <!-- TestClasses.FillScheduleDemoForm -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
