@@ -24,7 +24,8 @@ public class BillPayPage {
 	{
 		WebDriverWait w= new WebDriverWait(driver, Duration.ofSeconds(10));
 		w.until(ExpectedConditions.elementToBeClickable(scheduleDemo));
-		JavascriptExecutor js = (JavascriptExecutor) driver;
+		
+		JavascriptExecutor js = (JavascriptExecutor) driver;    //due to ElementClickIntercepted exception> used Javascript click method
 		js.executeScript("arguments[0].click();", scheduleDemo);
 
 		
