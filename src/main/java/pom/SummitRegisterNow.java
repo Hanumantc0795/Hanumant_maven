@@ -10,6 +10,7 @@ public class SummitRegisterNow {
 	@FindBy(xpath="(//a[text()='Summit'])") private WebElement SummitTabName;
 	@FindBy(xpath="//div[@class='summit-navigation']//a[4]") private WebElement agendaOption;
 	@FindBy(xpath="(//h2[@class='css-87ndg2'])[2]")private WebElement agendaPageTitle;
+	@FindBy(xpath="//a[text()='Sign In']") private WebElement signIN;
 	
 	public SummitRegisterNow(WebDriver driver)
 	{
@@ -29,5 +30,9 @@ public class SummitRegisterNow {
 	{
 		String pageTitle = agendaPageTitle.getText();
 		return pageTitle;
+	}
+	public void clickOnSingIn()
+	{
+		signIN.click();
 	}
 }
