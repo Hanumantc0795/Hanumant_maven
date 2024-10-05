@@ -12,7 +12,8 @@ import pom.SummitRegisterNow;
 
 public class ClickOnLogin extends BaseClass {
 
-	
+	//Click on SignIn optio
+
 	Products_BillPay billPay;
 	SummitRegisterNow summit;
 	
