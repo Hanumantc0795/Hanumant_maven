@@ -12,10 +12,7 @@ import pom.SummitRegisterNow;
 
 public class ClickOnLogin extends BaseClass {
 
-	//SignIn
-//added new line
-
-
+	//Click on SignIn
 	Products_BillPay billPay;
 	SummitRegisterNow summit;
 	
