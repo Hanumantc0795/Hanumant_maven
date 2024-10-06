@@ -13,9 +13,10 @@ import pom.SummitRegisterNow;
 public class ClickOnLogin extends BaseClass {
 
 
+
 	//Click on SignIn
-	//test2
-	//test3
+	//QA
+
 
 	Products_BillPay billPay;
 	SummitRegisterNow summit;
@@ -40,7 +41,6 @@ public class ClickOnLogin extends BaseClass {
 	{
 		closeBrowser();
 	}
-	
-	//test1
+
 
 }
